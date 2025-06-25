@@ -41,4 +41,3 @@ Students are encouraged to:
 - Share code implementations
 - Collaborate with peers
 - Present findings and insights
-
