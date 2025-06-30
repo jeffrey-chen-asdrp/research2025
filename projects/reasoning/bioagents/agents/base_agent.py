@@ -11,7 +11,7 @@
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
-from agents import RunResult
+# from agents import RunResult
 from loguru import logger
 
 from bioagents.models.citation import Citation
