@@ -6,6 +6,8 @@ load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 
+
+
 client = OpenAI(api_key=API_KEY)
 
 completion = client.chat.completions.create(
@@ -13,7 +15,7 @@ completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "Write me a one paragraph essay on World War II."
+            "content": "What is the capital of France?"
         }
     ]
 )
